@@ -4,7 +4,8 @@ import usersRouters from './routes/users.js';
 
 // The whole application lies on this funtion
 const app = express(); 
-const PORT = 5000;
+const PORT = process.env.PORT || 3000;
+console.log('funcionou alal');
 
 app.use(bodyParser.json());
 
