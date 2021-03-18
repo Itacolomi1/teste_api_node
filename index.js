@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 app.use('/users', usersRouters);
 
 
-app.get('/',(req,res)=>{ res.send('Oi girlss eu consegui subir essa bagaça !!!!!');});
+app.get('/',(req,res)=>{ res.send('Olá Azure !!!!!');});
 
 app.listen(PORT,() => console.log('server Running on port: http://localhost:' + PORT));
