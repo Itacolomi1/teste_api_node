@@ -13,8 +13,6 @@ app.get('/usuarios', (req, res) => {
 })
 
 app.post('/usuario', (req, res) => {
-  console.log('chegou')
-  console.log(req.body)
   createUser(req.body.login, req.body.password, req.body.nome, res)
 })
 export default app
